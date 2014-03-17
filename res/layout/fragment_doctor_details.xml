@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    android:orientation="vertical"
+	    tools:context=".DoctorActivity$DetailsFragment" >
+	
+	    <TextView
+	        android:fontFamily="sans-serif"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:text="Health Record"
+	        android:gravity="center"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	    
+	    <TextView
+	        android:textIsSelectable="true"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:fontFamily="sans-serif-light"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/doctor_details_info" />
+	    
+	    <TextView
+	        android:fontFamily="sans-serif"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:text="Tap to patient's device to receive health record"
+	        android:layout_marginTop="20dip"
+	        android:gravity="center"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	
+	</LinearLayout>
+
+</ScrollView>
